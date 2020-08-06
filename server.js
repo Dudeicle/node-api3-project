@@ -18,7 +18,7 @@ server.use("/api", apiRouter);
 // checkPass("mellon")
 
 server.get("/", (req, res) => {
-	res.send(`<h2>Let's write some middleware!</h2>`);
+	res.send(`<h2>Let's write some middleware nice!</h2>`);
 });
 
 //custom middleware
